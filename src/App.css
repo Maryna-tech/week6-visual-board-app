@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+
+header {
+  background-color: palevioletred;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.motto{
+  color: #6523E3;
+  display: flex;
+  justify-content: center;
+  font-weight:300px;
+}
+
+p.motto{
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 10px 10px;
+  flex-flow: column wrap;
+};
+
+.item{
+  border-color: aquamarine;
+}
+
+button{
+  background-color:#0dcaf0;
+  padding: 8px 12px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: small;
+}
+
+button:hover{
+  background-color: pink;
+}
+
+.container-two{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.done{
+  padding: 6px 15px;
+  background-color:#9935ff;
+  border: 3px solid darkblue;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 3px;
+  margin: auto;
+}
+
+.done:hover{
+  background-color: #0dcaf0;
+}
+
+.container-three{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+h3{
+font-size: 20px;
+margin-top: 10px;
+margin-left: 800px;
+background-color: rgb(250, 210, 246);
+width: fit-content;
+padding: 20px;
+font-family: "Poppins", sans-serif;
+}
+
+h4{
+  font-size: 15px;
+  margin-left: 120px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+.slide{
+  margin: 10px;
+  border-radius: 15px;
+  width: 500px;
+  height: 580px;
+}
+
+.btn container{
+  display: flex;
+  flex:1;
+}
+
+arrow{
+  position: relative;
+  height: 40px;
+  width: 100px;
+  border-radius: 15px;
+  border: 1px solid blueviolet;
+  color: #130f40;
+  font-size: 15px;
+  cursor: pointer;
+  background: linear-gradient(to right, #f368e0, #48dbfb);
+  margin: 3px;
+  padding: 8px;
+}
+
+p.slide{
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  height: 100px;
+  background-color: #0dcaf0;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+footer{
+  background-color: palevioletred;
+  min-height: 10vh;
+  padding: 3px;
+}
+
+p{
+  font-size: 1.1rem;
+  padding-top: 0.3rem;
+  margin-left: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
