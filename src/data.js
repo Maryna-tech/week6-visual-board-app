@@ -25,8 +25,8 @@ export const data = [
 
     {
         id:5,
-        goal:"Intuition",
-        imageUrl: "./assets/intuition.jpg"
+        goal:"Puppy",
+        imageUrl: "./assets/puppy.jpg"
     },
 
     {
@@ -91,8 +91,8 @@ export const data = [
 
     {
         id:16,
-        goal:"Puppy",
-        imageUrl: "./assets/puppy.jpg"
+        goal:"Intuition",
+        imageUrl: "./assets/intuition.jpg"
     }
 ];
 
