@@ -36,7 +36,7 @@ function App(){
 
     <div className='container-three'>
         <h3>MY DAILY INSPIRATIONAL SLIDERS</h3>
-        <Slide anyslide={Slide}/>
+        <Slide />
     </div>
     <footer>
         <p>Copyright © 2024 Maryna Garaieva.</p>
