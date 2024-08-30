@@ -1,102 +1,96 @@
 export const data = [
     {
         id:1,
-        goal:"New House",
-        imageUrl: "./assets/my_home.jpg"
+        goal:"New York",
+        imageUrl: "./assets/new_york.jpg" 
     },
 
     { 
         id:2,
-        goal:"New York",
-        imageUrl: "./assets/new_york.jpg"
+        goal:"New House",
+        imageUrl: "./assets/my_home.jpg"
     },
 
     {
         id:3,
-        goal:"Yoga",
-        imageUrl: "./assets/yoga.jpg"
-    },
-
-    {
-        id:4,
-        goal:"Dream",
-        imageUrl: "./assets/dream.jpg"
-    },
-
-    {
-        id:5,
-        goal:"Niagara Waterfall",
-        imageUrl: "./assets/niagara_fall.jpg"
-    },
-
-    {
-        id:6,
-        goal:"Intuition",
-        imageUrl: "./assets/intuition.jpg"
-    },
-
-    {
-        id:7,
-        goal:"Job",
-        imageUrl:"./assets/job.jpg"
-    },
-
-    {
-        id:8,
-        goal:"Disneyland",
-        imageUrl: "./assets/disney.jpg"
-    },
-
-    {
-        id:9,
-        goal:"Success",
-        imageUrl:"./assets/success.jpg"
-    },
-
-    {
-        id:10,
         goal:"Wealth",
         imageUrl:"./assets/money.jpg"
     },
 
     {
-        id:11,
+        id:4,
+        goal:"Niagara Waterfall",
+        imageUrl: "./assets/niagara_fall.jpg"
+    },
+
+    {
+        id:5,
+        goal:"Intuition",
+        imageUrl: "./assets/intuition.jpg"
+    },
+
+    {
+        id:6,
+        goal:"Job",
+        imageUrl:"./assets/job.jpg"
+    },
+
+    {
+        id:7,
+        goal:"Disneyland",
+        imageUrl: "./assets/disney.jpg"
+    },
+
+    {
+        id:8,
+        goal:"Success",
+        imageUrl:"./assets/success.jpg"
+    },
+
+    {
+        id:9,
+        goal:"Yoga",
+        imageUrl: "./assets/yoga.jpg"
+    },
+
+    {
+        id:10,
         goal:"Adele concert",
         imageUrl:"./assets/Adele.jpg"
     },
 
     {
-        id:12,
+        id:11,
         goal:"Air baloon",
         imageUrl:"./assets/air_baloon.jpg"
     },
 
     {
-        id:13,
+        id:12,
         goal:"Grand Canyon",
         imageUrl:"./assets/Grand_canyon.jpg"
     },
 
     {
-        id:14,
+        id:13,
         goal:"Affirmation",
         imageUrl:"./assets/happy_affirm.jpg"
     },
 
     {
-        id:15,
+        id:14,
         goal:"Magic happen",
         imageUrl: "./assets/infinity.jpg" 
     },
 
     {
-        id:16,
+        id:15,
         goal:"Switzerland",
         imageUrl:"./assets/switzerland.jpg"
     },
 
     {
-        id:17,
+        id:16,
         goal:"Puppy",
         imageUrl: "./assets/puppy.jpg"
     }
