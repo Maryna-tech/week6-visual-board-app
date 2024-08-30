@@ -27,13 +27,13 @@ const nextSlide = ()=>{
   }))
 }
 
-  return (<div key ={id2}>
+  return (<div>
     <div className='container-three'>
       <div className='btn container'>
-        <arrow className='btn left' onClick={previousSlide}>◀️Previous</arrow>
-          <img className='slide'  src={image}/>
+        <button className='left' onClick={previousSlide}>◀️Previous</button>
+          <img className='slide'  src={image} alt= 'inspiration'/>
           <h4>{description}</h4>
-          <arrow className='btn right' onClick={nextSlide}>Next▶️</arrow>
+          <button className='right' onClick={nextSlide}>Next▶️</button>
           <p className='slide'>Say this every morning and every night: "I am healthy, I am wealthy I am divine.
             Everything comes to me in the perfect time.<br></br>
             I am hot, I am rich, girl I am so fine.
