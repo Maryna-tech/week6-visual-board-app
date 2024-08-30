@@ -124,7 +124,7 @@ h4{
   flex:1;
 }
 
-arrow{
+.left, .right{
   position: relative;
   height: 40px;
   width: 100px;
@@ -136,6 +136,14 @@ arrow{
   background: linear-gradient(to right, #f368e0, #48dbfb);
   margin: 3px;
   padding: 8px;
+}
+
+.left:hover{
+  background: greenyellow;
+}
+
+.right:hover{
+  background: greenyellow;
 }
 
 p.slide{
@@ -160,6 +168,3 @@ p{
   margin-left: 50px;
   font-family: "Poppins", sans-serif;
 }
-
-
-
