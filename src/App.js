@@ -5,7 +5,6 @@ import Slide from './Slide';
 
 function App(){
   const[goals, setGoals] = useState(data);
-  //console.log(data);
   
   const removeGoal =(id)=>{
     let newGoals = goals.filter(goal=>goal.id!==id);
