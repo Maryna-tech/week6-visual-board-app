@@ -4,7 +4,6 @@ import { data2 } from './data';
 function Slide({anyslide}) {
   const[slide, setSlide] = useState(0);
   const {image, description} = data2[slide];
-  //console.log(data2);
 
 const previousSlide = ()=>{
   setSlide((slide =>{
